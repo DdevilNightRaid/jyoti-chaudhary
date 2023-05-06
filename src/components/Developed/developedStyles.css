@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Playfair+Display&display=swap');
+
+.developedBody{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #011627;
+}
+.dev{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.themisfitofnightraid{
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 20px;
+}

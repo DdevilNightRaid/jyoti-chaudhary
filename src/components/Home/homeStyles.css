@@ -1,0 +1,161 @@
+.homeBody {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 7rem 7rem;
+    justify-content: space-between;
+}
+
+.hbSection0 {
+    padding: 1rem 0;
+    margin: auto 0;
+}
+
+.defaultColor {
+    color: #073B4C;
+}
+
+.focusColor {
+    color: #06D6A0;
+}
+
+.oneLiner {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+
+.heading {
+    font-size: 3.7rem;
+    font-weight: 800;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+
+}
+
+.hbSection1 {
+    position: relative;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.heroImg {
+    height: 28rem;
+    width: 17rem;
+}
+
+.heroSideImgs {
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+}
+
+.zero {
+    top: calc(1rem - 1px);
+    left: calc(1rem - 1px);
+    animation: float 6s ease-in-out infinite;
+}
+
+.one {
+    top: calc(4rem - 1px);
+    right: calc(1rem - 1px);
+    animation: float 6s ease-in-out infinite;
+}
+
+.two {
+    bottom: calc(8rem - 1px);
+    left: calc(1rem - 1px);
+    animation: float 6s ease-in-out infinite;
+}
+
+.three {
+    bottom: calc(2rem - 1px);
+    right: calc(1rem - 1px);
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        filter: drop-shadow(0 5px 15px 0px rgba(255, 1, 1, 0.6));
+        transform: translatey(0px);
+    }
+
+    50% {
+        filter: drop-shadow(0 25px 15px 0px rgba(247, 0, 0, 0.479));
+        transform: translatey(-20px);
+    }
+
+    100% {
+        filter: drop-shadow(0 5px 15px 0px rgba(245, 0, 0, 0.6));
+        transform: translatey(0px);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .homeBody {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 0.5rem;
+    }
+
+    .hbSection0 {
+        padding: 1rem 0;
+        line-height: 2rem;
+    }
+
+    .oneLiner {
+        font-size: 1rem;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+
+    }
+
+    .hbSection1 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+
+    .heroImg {
+        height: 28rem;
+        width: 17rem;
+    }
+
+    .heroSideImgs {
+        height: 3.5rem;
+        width: 3.5rem;
+        position: absolute;
+    }
+
+    .zero {
+        left: calc(1rem - 1px);
+    }
+
+    .one {
+        right: calc(rem - 1px);
+    }
+
+    .two {
+        left: calc(0rem - 1px);
+    }
+
+    .three {
+        right: calc(0.2rem - 1px);
+    }
+}
