@@ -38,7 +38,7 @@
 .section1 {
     color: #073B4C;
     border: 2px solid red;
-    padding: 2rem;
+    padding: 2rem 4rem;
     /* width: 46%; */
     background: rgba(74, 144, 226, 0.05);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);

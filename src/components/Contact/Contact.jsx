@@ -1,22 +1,22 @@
 import Button from '@mui/material/Button';
-import { FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
+import { FaYoutube, FaFacebookSquare } from "react-icons/fa";
 
 import './contactStyles.css'
 const Contact = () => {
     return (
         <div id='contact' className="contactBody">
             <section className="csection0">
-                <h1 className="cHeading">Book Your Class Now</h1>
+                <h1 className="cHeading">Let&apos;s Be Friends</h1>
             </section>
             <section className="csection1">
                 <div className="box0">
-                    <a href={'https://www.facebook.com/profile.php?id=100090820037966'}>
+                    <a href={'https://www.facebook.com/apil.dhakal.12'}>
                         <FaFacebookSquare />
                     </a>
                 </div>
                 <div className="box1">
-                    <strong>+ 977 9821319306</strong>
-                    <a href="tel: 9821319306">
+                    <strong>+ 977 9849955795</strong>
+                    <a href="tel: 9849955795">
                         <Button 
                         variant="contained"
                         sx={
@@ -29,8 +29,8 @@ const Contact = () => {
                     </a>
                 </div>
                 <div className="box2">
-                    <a href={'https://www.facebook.com/profile.php?id=100090820037966'}>
-                        <FaInstagramSquare />
+                    <a href={'https://www.youtube.com/channel/UCRoReoJAQyp2Ldh1f0LEyvw/featured'}>
+                        <FaYoutube />
                     </a>
                 </div>
             </section>

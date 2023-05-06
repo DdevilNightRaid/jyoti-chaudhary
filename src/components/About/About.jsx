@@ -1,24 +1,25 @@
 import './aboutStyles.css'
-import tick from "../../assets/aboutImgs/tick-dynamic-color.png"
+import target from "../../assets/aboutImgs/target-dynamic-color.png"
 const About = () => {
     return (
-        <div id='why' className='aboutBody'>
+        <div id='about' className='aboutBody'>
             <section className="section0">
-                <h2 className='why'>Why?</h2>
-                <h1 className='heading1'>Why Hiring a Private Tutor Like Me Can Improve Your Child&apos;s Academic Performance?</h1>
+                <h2 className='why'>About</h2>
+                <h1 className='heading1'>You may not need my skills but, <span className='focusColor'> We can Still get connected</span></h1>
+                <h2 className='why'>MY Opinion On Computer ;</h2>
                 <section className="desc">
-                    Every parent wants their child to excel academically and achieve their full potential. However, not all students can thrive in a traditional classroom setting, and they may require additional help and support to succeed. This is where <span className='focusColor'> I can make a significant difference in your child&apos;s academic performance.</span>
+                I love using my laptop and making new projects (3d,2d,grapics,prg etc.) and i think that every persons, childrens should get devices cuz it&apos;s 2022 but but there comes one thing that if we gave phones , laptops , pc to the childrens we should make sure that the childrens are doing good things cuz every think has it&apos;s own advantages and disadvantages the childrens should be taught about the advantages and disadvantages of computer , networking..! So, That was my personal Opinion..!
 
                 </section>
             </section>
             <section className="section1">
-                <h2 className='s1h2'>Advantages: </h2>
-                <p className='ads'>1. Individualized Attention and Customized Learning</p>
-                <p className='ads'>2. Improved Confidence and Motivation</p>
-                <p className='ads'>3. Better Grades and Academic Performance</p>
-                <p className='ads'>4. Flexibility and Convenience</p>
-                <a href={'https://www.facebook.com/profile.php?id=100090820037966'}>
-                    <img src={tick} alt="tick" className='tick' />
+                <h2 className='s1h2'>My Qualities: </h2>
+                <p className='ads'>1. Friendly</p>
+                <p className='ads'>2. Joking Personality</p>
+                <p className='ads'>3. Tech Guy</p>
+                <p className='ads'>4. Likes being around people</p>
+                <a href={'https://www.facebook.com/apil.dhakal.12'}>
+                    <img src={target} alt="tick" className='tick' />
                 </a>
             </section>
         </div>

@@ -1,7 +1,5 @@
-// import { a } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { AiOutlineClose,  AiOutlineMenu } from 'react-icons/ai';
-// import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -32,7 +30,7 @@ const Navbar = () => {
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <a href='/'>
-            <h1 className='text-xl text-[#264653]'>Aaryan Bhandari</h1>
+            <h1 className='text-xl text-[#264653]'>Apil Dhakal</h1>
         </a>
         <div>
           <ul style={{ color: `#1f2937` }} className='hidden md:flex'>
@@ -40,7 +38,7 @@ const Navbar = () => {
               <a href='/'>Home</a>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-[#2a9d8f]'>
-              <a href='/#why'>Why</a>
+              <a href='/#about'>About</a>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-[#2a9d8f]'>
               <a href='/#skills'>Skills</a>
@@ -78,7 +76,7 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between'>
               <a href='/'>
-                 <h1 className='text-xl'>Aaryan Bhandari</h1>
+                 <h1 className='text-xl'>Apil Dhakal</h1>
               </a>
               <div
                 onClick={handleNav}
@@ -89,7 +87,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s learn something  hrefgether
+              Adventure , Photography , Programming , Gaming.
               </p>
             </div>
           </div>
@@ -100,9 +98,9 @@ const Navbar = () => {
                   Home
                 </li>
               </a>
-              <a href='/#why'>
+              <a href='/#about'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                  Why?
+                  About
                 </li>
               </a>
               <a href='/#skills'>
