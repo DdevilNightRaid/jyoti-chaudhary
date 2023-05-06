@@ -17,7 +17,7 @@ const About = () => {
                 <p className='ads'>1. Friendly</p>
                 <p className='ads'>2. Joking Personality</p>
                 <p className='ads'>3. Tech Guy</p>
-                <p className='ads'>4. Likes being around people</p>
+                <p className='ads'>4. Gaming</p>
                 <a href={'https://www.facebook.com/apil.dhakal.12'}>
                     <img src={target} alt="tick" className='tick' />
                 </a>
