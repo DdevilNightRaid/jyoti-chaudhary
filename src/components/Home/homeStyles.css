@@ -1,9 +1,11 @@
+
 .homeBody {
     display: flex;
     flex-direction: row;
     gap: 2rem;
     padding: 7rem 7rem;
     justify-content: space-between;
+    /* font-family: 'Asap Condensed', sans-serif; */
 }
 
 .hbSection0 {
@@ -13,17 +15,21 @@
 }
 
 .defaultColor {
-    color: #073B4C;
+    color: #161925;
 }
 
 .focusColor {
-    color: #06D6A0;
+    color: #07689F;
 }
-
+.font1{
+    font-weight: 900;
+}
 .oneLiner {
     font-size: 1rem;
     font-weight: 800;
     margin: 1rem 0;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
 }
 
 .heading {

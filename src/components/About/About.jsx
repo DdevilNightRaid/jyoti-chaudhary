@@ -4,20 +4,42 @@ const About = () => {
     return (
         <div id='about' className='aboutBody'>
             <section className="section0">
-                <h2 className='why'>About</h2>
-                <h1 className='heading1'>You may not need my skills but, <span className='focusColor'> We can Still get connected</span></h1>
-                <h2 className='why'>MY Opinion On Computer ;</h2>
+                <h2 className='why font1'>About</h2>
+                <h1 className='heading1'>Are you at grade <span className='focusColor'> 11 or 12</span>?</h1>
+                <h2 className='wone'>Looking for someone to teach you <span className='blueDark'>Maths</span>, <span className='blueDark'>Physics</span> or perhaps <span className='blueDark'>Chemistry</span>?</h2>
                 <section className="desc">
-                I love using my laptop and making new projects (3d,2d,grapics,prg etc.) and i think that every persons, childrens should get devices cuz it&apos;s 2022 but but there comes one thing that if we gave phones , laptops , pc to the childrens we should make sure that the childrens are doing good things cuz every think has it&apos;s own advantages and disadvantages the childrens should be taught about the advantages and disadvantages of computer , networking..! So, That was my personal Opinion..!
+                    With my personalized approach and dedication to your success, I&apos;ll work together to identify your strengths and weaknesses, address your specific learning needs, and help you gain confidence in your abilities. My goal is not only to help you understand the subject matter but also to foster a lifelong love of learning.
 
                 </section>
             </section>
             <section className="section1">
-                <h2 className='s1h2'>My Qualities: </h2>
-                <p className='ads'>1. Friendly</p>
-                <p className='ads'>2. Joking Personality</p>
-                <p className='ads'>3. Tech Guy</p>
-                <p className='ads'>4. Gaming</p>
+                <h2 className='s1h2'>My Track Record: </h2>
+                {/* <div className='adsDiv'>
+                    <span className="ads">1. </span>
+                    <p className='ads'>SLC Distinction, Sagarmatha Niketen School</p></div>
+                <div className='adsDiv'>
+                    <span className="ads">2. </span>
+                    <p className='ads'>Joking Personality</p></div>
+                <div className='adsDiv'>
+                    <span className="ads">3. </span>
+                    <p className='ads'>Tech Guy</p>
+                </div>
+                <div className='adsDiv'>
+                    <span className="ads">4. </span>
+                    <p className='ads'>Gaming</p>
+                </div> */}
+                <div className='addv'>
+                    <span className='ads'>1.</span>
+                    <p className='ads'>SLC Distinction, Sagarmatha Niketen School</p>
+                </div>
+                <div className='addv'>
+                    <span className='ads'>2.</span>
+                    <p className='ads'>A+ at 11 grade, JanaPriya Collage</p>
+                </div>
+                <div className='addv'>
+                    <span className='ads'>3.</span>
+                    <p className='ads'>A+ at 12 grade, JanaPriya Collage</p>
+                </div>
                 <a href={'https://www.facebook.com/apil.dhakal.12'}>
                     <img src={target} alt="tick" className='tick' />
                 </a>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { AiOutlineClose,  AiOutlineMenu } from 'react-icons/ai';
-
+import Logo from '../../assets/logo.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `#ecf0f3` }}
+      style={{ backgroundColor: `#fafafa` }}
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
@@ -30,20 +30,21 @@ const Navbar = () => {
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <a href='/'>
-            <h1 className='text-xl text-[#264653]'>Apil Dhakal</h1>
+            {/* <h1 className='text-xl text-[#264653]'>Apil Dhakal</h1> */}
+            <img src={Logo} alt="" className='h-16 w-20'/>
         </a>
         <div>
           <ul style={{ color: `#1f2937` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b text-[#2a9d8f]'>
+            <li className='ml-10 text-sm uppercase hover:border-b text-[#07689F]'>
               <a href='/'>Home</a>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b text-[#2a9d8f]'>
+            <li className='ml-10 text-sm uppercase hover:border-b text-[#07689F]'>
               <a href='/#about'>About</a>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b text-[#2a9d8f]'>
+            <li className='ml-10 text-sm uppercase hover:border-b text-[#07689F]'>
               <a href='/#skills'>Skills</a>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b text-[#2a9d8f]'>
+            <li className='ml-10 text-sm uppercase hover:border-b text-[#07689F]'>
               <a href='/#contact'>Contact</a>
             </li>
           </ul>
@@ -69,14 +70,14 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 hrefp-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? ' fixed left-0 hrefp-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#fafafa] p-10 ease-in duration-500'
               : 'fixed left-[-100%] hrefp-0 p-10 ease-in duration-500'
           }
         >
           <div>
             <div className='flex w-full items-center justify-between'>
               <a href='/'>
-                 <h1 className='text-xl'>Apil Dhakal</h1>
+                 <h1 className='text-xl blueDark'>Jyoti Chaudhary</h1>
               </a>
               <div
                 onClick={handleNav}
@@ -86,8 +87,8 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>
-              Adventure , Photography , Programming , Gaming.
+              <p className='w-[85%] md:w-[90%] py-4 darkColor'>
+              Le&apos;me Guide You In Your Learning Path
               </p>
             </div>
           </div>
